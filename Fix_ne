@@ -15,7 +15,7 @@ local function sendNotification(title, text, duration)
 end
 
 if player.UserId == ownerUserId then
-    sendNotification("Welcome Owner", "Welcome " .. player.Name, 5)
+    sendNotification("Đã fix", "bởi thanhtv68", 5)
 end
 
 local function toggleNoclip(state)
